@@ -13,7 +13,7 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -24,6 +24,40 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        /* Make the navbar and header more responsive */
+        @media (max-width: 767px) {
+            .navbar-brand h1 {
+                font-size: 1.5rem;
+            }
+            .navbar-nav .nav-item {
+                text-align: center;
+                padding: 10px 0;
+            }
+            .navbar-toggler {
+                margin-left: auto;
+            }
+        }
+
+        /* Responsive image adjustments */
+        @media (max-width: 991px) {
+            .carousel-inner img {
+                max-height: 400px;
+                object-fit: cover;
+            }
+        }
+
+        /* Make the footer responsive */
+        @media (max-width: 991px) {
+            .container-fluid.bg-dark.text-white-50 {
+                padding: 30px 0;
+            }
+            .footer-col {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -40,28 +74,17 @@
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-primary px-3" href="">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="text-primary px-3" href="">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a class="text-primary px-3" href="">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="text-primary px-3" href="">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a class="text-primary pl-3" href="">
-                            <i class="fab fa-youtube"></i>
-                        </a>
+                        <a class="text-primary px-3" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="text-primary px-3" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="text-primary px-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="text-primary px-3" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="text-primary pl-3" href=""><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
-
 
     <!-- Navbar Start -->
     <div class="container-fluid position-relative nav-bar p-0">
@@ -72,11 +95,10 @@
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
-                </button
+                </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Inici</a>
-                        
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Empresa</a>
                             <div class="dropdown-menu border-0 rounded-0 m-0">
@@ -84,7 +106,6 @@
                                 <a href="destination.html" class="dropdown-item">A qui va dirigit el servei?</a>
                             </div>
                         </div>
-
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tallers</a>
                             <div class="dropdown-menu border-0 rounded-0 m-0">
@@ -102,13 +123,12 @@
     </div>
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0">
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/FUNTASIES.jpg" alt="Image" width="400" height="700">
+                    <img class="w-100" src="img/FUNTASIES.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h1 class="display-3 text-white mb-md-4">On la creativitat no té límits</h1>
@@ -116,11 +136,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
     <!-- Carousel End -->
-
-
-   
-
 
     <!-- About Start -->
     <div class="container-fluid py-5">
@@ -136,9 +154,9 @@
                         <h1 class="mb-3">FUNTASIES</h1>
                         <p>Benvinguts a Funstasies</p>
 
-                            <p>En Funstasies, creiem que l'educació infantil és molt més que aprendre conceptes bàsics. La nostra missió és inspirar i potenciar el desenvolupament de cada nen a través d'experiències educatives divertides, creatives i innovadores. Des d'activitats lúdiques fins a tallers interactius, cadascuna de les nostres propostes està dissenyada per a fomentar l'amor per l'aprenentatge i el creixement personal.</p>
-                            
-                            <p>Uneix-te a nosaltres en aquesta emocionant aventura educativa i descobreix com en Funstasies transformem l'aprenentatge en una experiència màgica i memorable per als més petits.</p>
+                        <p>En Funstasies, creiem que l'educació infantil és molt més que aprendre conceptes bàsics. La nostra missió és inspirar i potenciar el desenvolupament de cada nen a través d'experiències educatives divertides, creatives i innovadores. Des d'activitats lúdiques fins a tallers interactius, cadascuna de les nostres propostes està dissenyada per a fomentar l'amor per l'aprenentatge i el creixement personal.</p>
+
+                        <p>Uneix-te a nosaltres en aquesta emocionant aventura educativa i descobreix com en Funstasies transformem l'aprenentatge en una experiència màgica i memorable per als més petits.</p>
                         <div class="row mb-4">
                             <div class="col-6">
                                 <img class="img-fluid" src="img/talleres.jpg" alt="">
@@ -154,66 +172,60 @@
     </div>
     <!-- About End -->
 
-
-
-<!-- Footer Start -->
-<div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
-    <div class="row pt-5">
-        <div class="col-lg-4 col-md-6 mb-5">
-            <a href="" class="navbar-brand">
-                <h1 class="text-primary" style="font-size: 4em;"><span class="text-white">FUNTASI</span>ES</h1>
-            </a>
-            <p>On la creativitat no té límits</p>
-            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Segueix-nos</h6>
-            <div class="d-flex justify-content-start">
-                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-primary" style="font-size: 4em;"><span class="text-white">FUNTASI</span>ES</h1>
+                </a>
+                <p>On la creativitat no té límits</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Segueix-nos</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-5">
-            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px; font-size: 1.5em;">Els nostres serveis</h5>
-            <div class="d-flex flex-column justify-content-start">
-                <a class="text-white-50 mb-2" href="service.html" style="font-size: 1.2em;"><i class="fa fa-angle-right mr-2"></i>Que Oferim?</a>
-                <a class="text-white-50 mb-2" href="destination.html" style="font-size: 1.2em;"><i class="fa fa-angle-right mr-2"></i>A qui va dirigit el servei?</a>
-                <a class="text-white-50 mb-2" href="contact.html" style="font-size: 1.2em;"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px; font-size: 1.5em;">Els nostres serveis</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="service.html" style="font-size: 1.2em;"><i class="fa fa-angle-right mr-2"></i>Que Oferim?</a>
+                    <a class="text-white-50 mb-2" href="destination.html" style="font-size: 1.2em;"><i class="fa fa-angle-right mr-2"></i>A qui va dirigit el servei?</a>
+                    <a class="text-white-50 mb-2" href="contact.html" style="font-size: 1.2em;"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-5">
-            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px; font-size: 1.5em;">Contacta amb nosaltres</h5>
-            <p style="font-size: 1.2em;"><i class="fa fa-map-marker-alt mr-2"></i>Passatge Miquel Carreras, 21 08205 Sabadell.</p>
-            <p style="font-size: 1.2em;"><i class="fa fa-phone-alt mr-2"></i>+34 93 748 00 15</p>
-            <p style="font-size: 1.2em;"><i class="fa fa-envelope mr-2"></i>daesal@jviladoms.cat</p>
-            <div class="w-100">
-                <div class="input-group">
-                    <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="El vostre email">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary px-3">Registra't</button>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px; font-size: 1.5em;">Contacta amb nosaltres</h5>
+                <p style="font-size: 1.2em;"><i class="fa fa-map-marker-alt mr-2"></i>Passatge Miquel Carreras, 21 08205 Sabadell.</p>
+                <p style="font-size: 1.2em;"><i class="fa fa-phone-alt mr-2"></i>+34 93 748 00 15</p>
+                <p style="font-size: 1.2em;"><i class="fa fa-envelope mr-2"></i>daesal@jviladoms.cat</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="El vostre email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-3">Registra't</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-    <div class="row">
-        <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-            <p class="m-0 text-white-50">Copyright &copy; <a href="#">Domain</a>. All Rights Reserved.</a>
-            </p>
-        </div>
-        <div class="col-lg-6 text-center text-md-right">
-            <p class="m-0 text-white-50">Designed by <a href="#">Biel i Alejandro</a>
-            </p>
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white-50">Copyright &copy; <a href="#">Domain</a>. All Rights Reserved.</p>
+            </div>
+            <div class="col-lg-6 text-center text-md-right">
+                <p class="m-0 text-white-50">Designed by <a href="#">Biel i Alejandro</a></p>
+            </div>
         </div>
     </div>
-</div>
-<!-- Footer End -->
-
+    <!-- Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -223,10 +235,6 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
